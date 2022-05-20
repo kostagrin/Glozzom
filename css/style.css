@@ -30,3 +30,27 @@
 .bi {
   font-size: 3rem;
 }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background-image: url(../img/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dark-overlay .row {
+  margin-right: 0;
+  margin-left: 0;
+}
