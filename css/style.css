@@ -40,6 +40,21 @@
   color: #fff;
 }
 
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background-image: url(../img/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  color: #fff;
+}
+
+#video-play a i {
+  color: #fff;
+  font-size: 4rem;
+}
+
 .dark-overlay {
   position: absolute;
   top: 0;
