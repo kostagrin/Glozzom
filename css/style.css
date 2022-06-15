@@ -8,6 +8,10 @@
   border-left: 3px solid #444;
 }
 
+.navbar .nav-item.active a {
+  color: #fff;
+}
+
 .carousel-item {
   height: 450px;
 }
