@@ -90,3 +90,9 @@
 #icon-boxes i {
   font-size: 4rem;
 }
+
+.services__list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
