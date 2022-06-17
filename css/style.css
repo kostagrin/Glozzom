@@ -123,3 +123,14 @@
 .accordion-button::after {
   display: none;
 }
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .blog__card {
+    height: fit-content;
+  }
+  
+  .blog__card-text {
+    height: 250px;
+    overflow-y: scroll;
+  }
+}
